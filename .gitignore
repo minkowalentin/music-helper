@@ -1,6 +1,11 @@
 # client
 client/node_modules
+client/.next
 
 # server
 server/node_modules
 server/.env
+
+# other
+local
+build

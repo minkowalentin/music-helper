@@ -114,26 +114,26 @@ var _jsxFileName = "/home/valentin/Documents/repos/music-helper/client/component
 
 var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1161502211",
+    className: "jsx-2531584566",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1161502211",
+    id: "2531584566",
     __self: this
-  }, "body{padding:0px;margin:0px;}.layout-container{padding:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3ZhbGVudGluL0RvY3VtZW50cy9yZXBvcy9tdXNpYy1oZWxwZXIvY2xpZW50L2NvbXBvbmVudHMvbGF5b3V0L015TGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNcUIsQUFHbUIsQUFJQSxZQUhELENBSWIsVUFIQyIsImZpbGUiOiIvaG9tZS92YWxlbnRpbi9Eb2N1bWVudHMvcmVwb3MvbXVzaWMtaGVscGVyL2NsaWVudC9jb21wb25lbnRzL2xheW91dC9NeUxheW91dC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgVG9wUGFuZWwgZnJvbSAnLi90b3AtcGFuZWwvVG9wUGFuZWwnO1xuXG5cblxuY29uc3QgTGF5b3V0ID0gcHJvcHMgPT4gKFxuXHQ8ZGl2PlxuXHRcdDxzdHlsZSBqc3ggZ2xvYmFsPntgXG5cdFx0XHRcdFx0Ym9keXtcblx0XHRcdFx0XHRcdHBhZGRpbmc6IDBweDtcblx0XHRcdFx0XHRcdG1hcmdpbjogMHB4O1xuXHRcdFx0XHRcdH1cbiAgICAgICAgLmxheW91dC1jb250YWluZXIge1xuXHRcdFx0XHRcdHBhZGRpbmc6IDEwcHg7XG5cdFx0XHRcdH1cbiAgICAgIGB9PC9zdHlsZT5cblx0XHQ8VG9wUGFuZWwgLz5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cImxheW91dC1jb250YWluZXJcIj5cblx0XHRcdHtwcm9wcy5jaGlsZHJlbn1cblx0XHQ8L2Rpdj5cblx0PC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG5cbiJdfQ== */\n/*@ sourceURL=/home/valentin/Documents/repos/music-helper/client/components/layout/MyLayout.tsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_top_panel_TopPanel__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');body{padding:0px;margin:0px;background-color:#D4EEE2;font-family:'Roboto',sans-serif;}.layout-container{padding:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3ZhbGVudGluL0RvY3VtZW50cy9yZXBvcy9tdXNpYy1oZWxwZXIvY2xpZW50L2NvbXBvbmVudHMvbGF5b3V0L015TGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNcUIsQUFHaUYsQUFDOUQsQUFPQSxZQU5ELENBT2IsVUFOMEIseUJBQ1csZ0NBRXBDIiwiZmlsZSI6Ii9ob21lL3ZhbGVudGluL0RvY3VtZW50cy9yZXBvcy9tdXNpYy1oZWxwZXIvY2xpZW50L2NvbXBvbmVudHMvbGF5b3V0L015TGF5b3V0LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBUb3BQYW5lbCBmcm9tICcuL3RvcC1wYW5lbC9Ub3BQYW5lbCc7XG5cblxuXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXG5cdDxkaXY+XG5cdFx0PHN0eWxlIGpzeCBnbG9iYWw+e2Bcblx0XHRcdFx0XHRib2R5e1xuXHRcdFx0XHRcdFx0QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG8mZGlzcGxheT1zd2FwJyk7XG5cdFx0XHRcdFx0XHRwYWRkaW5nOiAwcHg7XG5cdFx0XHRcdFx0XHRtYXJnaW46IDBweDtcblx0XHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6I0Q0RUVFMjtcbiAgICBcdFx0XHRcdGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgc2Fucy1zZXJpZjtcblxuXHRcdFx0XHRcdH1cbiAgICAgICAgLmxheW91dC1jb250YWluZXIge1xuXHRcdFx0XHRcdHBhZGRpbmc6IDEwcHg7XG5cdFx0XHRcdH1cbiAgICAgIGB9PC9zdHlsZT5cblx0XHQ8VG9wUGFuZWwgLz5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cImxheW91dC1jb250YWluZXJcIj5cblx0XHRcdHtwcm9wcy5jaGlsZHJlbn1cblx0XHQ8L2Rpdj5cblx0PC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG5cbiJdfQ== */\n/*@ sourceURL=/home/valentin/Documents/repos/music-helper/client/components/layout/MyLayout.tsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_top_panel_TopPanel__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1161502211" + " " + "layout-container",
+    className: "jsx-2531584566" + " " + "layout-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 21
     },
     __self: this
   }, props.children));
