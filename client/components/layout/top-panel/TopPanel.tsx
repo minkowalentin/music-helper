@@ -1,15 +1,34 @@
-import { Pane, Text } from 'evergreen-ui'
-
+import Link from "next/link"
 
 export default function TopPanel() {
 	return (
-		<Pane
-			height={60}
-			width={'100%'}
-			display="flex"
-			alignItems="center"
-			justifyContent="center"
-			border="default"
-		></Pane>
+		<div>
+			<style jsx>{
+				`
+				.toppanel-link {
+					margin: 0px 10px;
+				}
+				`
+			}
+			</style>
+			<div className="toppanel-container">
+				<Link
+					href="/">
+					<a className="toppanel-link">
+						Home
+					</a>
+				</Link>
+				<Link href="/register">
+					<a className="toppanel-link">
+						Register
+					</a>
+				</Link>
+				<Link href="/login">
+					<a className="toppanel-link">
+						Login
+					</a>
+				</Link>
+			</div>
+		</div>
 	)
 }

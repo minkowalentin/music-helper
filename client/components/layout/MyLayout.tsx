@@ -1,7 +1,5 @@
 import TopPanel from './top-panel/TopPanel';
 
-
-
 const Layout = props => (
 	<div>
 		<style jsx global>{`

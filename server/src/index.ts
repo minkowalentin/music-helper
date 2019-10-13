@@ -2,10 +2,20 @@
 
 import "dotenv/config";
 import express from "express";
-import "reflect-metadata";
+import bodyParser from "body-parser";
+// db instance connection
+import "./infrastructure/mongo.config";
+
+import userRoutes from "./infrastructure/routes/user";
 
 const app = express();
+const port = process.env.PORT || 3023;
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+//routes
+app.use("/users", userRoutes);
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
