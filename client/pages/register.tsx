@@ -1,19 +1,11 @@
 import React, { Component } from 'react'
-import Layout from '../components/layout/MyLayout'
-import Form from '../components/forms/form'
-import Button from '@material-ui/core/Button'
-
+import Form from '../app/components/forms/form'
 export default class Register extends Component {
 	render() {
 		return (
-			<Layout>
+			<div>
 				<Form />
-				<Button
-					variant="contained"
-					color="primary" >
-					Register
-				</Button>
-			</Layout >
+			</div>
 		);
 	}
 }
